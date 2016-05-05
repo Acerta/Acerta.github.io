@@ -2238,6 +2238,38 @@ p.credits {
 #sharemeBtn a.btnFacebook:hover {border-color:#3b5998;}
 #sharemeBtn a.btnTwitter:hover {border-color:#55ACEE;}
 
+/* Black and white backgrounds */
+
+.blackbg {
+	font-size:50px;
+	line-height:70px;
+	font-weight:300;
+	font-family: 'Roboto',sans-serif;
+	color:rgb(255, 255, 255);
+	text-decoration:none;
+	background-color:rgba(0, 0, 0, 0.75);
+	padding:0px 20px 5px;
+	text-shadow:none;
+	border-width:0px;
+	border-color:rgb(255, 255, 255);
+	border-style:none;
+}
+.whitebg {
+	font-size:30px;
+	line-height:30px;
+	font-weight:300;
+	font-family: 'Roboto',sans-serif;
+	color:rgb(0, 0, 0);
+	text-decoration:none;
+	background-color:rgb(255, 255, 255);
+	padding:5px 15px 10px;
+	text-shadow:none;
+	border-width:0px;
+	border-color:rgb(0, 0, 0);
+	border-style:none;
+}
+
+/* End backgrounds */
 
 
 /*** MEDIA QUERIES ***/
